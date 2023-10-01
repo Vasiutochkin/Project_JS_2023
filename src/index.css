@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.userContainerDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('https://w.forfun.com/fetch/99/99b1f94e983b079412fd1c56fff58e75.jpeg');
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+    font-size: 100px;
+}
+
+button {
+    background-color: #070707;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 2vh;
+}
+
+button:hover {
+    background-color: #4a4b50;
+}
+
+.userDiv {
+    width: 48%;
+    margin-bottom: 27px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    font-size: 3vh;
+    line-height: 0.2;
+}

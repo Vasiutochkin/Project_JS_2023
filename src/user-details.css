@@ -1,0 +1,53 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://damion.club/uploads/posts/2022-03/1648037768_10-damion-club-p-temno-krasnie-oboi-na-telefon-oboi-na-rabo-12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.userDetailsDiv {
+    background-color: rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+    font-size: 2.5vh;
+    color: #fff;
+
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 90%;
+    font-size: 2vh;
+}
+
+button:hover {
+    background-color: rgba(74, 75, 80, 0.82);
+}
+
+.userPostsDiv {
+    margin-top: 20px;
+}
+
+.postTitle {
+    background-color: rgba(255, 255, 255, 0.18);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.postTitle:hover {
+    background-color: #2b2828;
+}
